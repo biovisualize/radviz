@@ -220,7 +220,7 @@ var radvizComponent = function() {
         var tooltipContainer = d3.select(config.el)
             .append('div')
             .attr({
-                id: 'radviz-tooltip'
+                class: 'radviz-tooltip'
             });
         var tooltip = tooltipComponent(tooltipContainer.node());
 
